@@ -1,4 +1,4 @@
-def sum(x,y);
+def sum(x,y):
     return x+y
 # main program starts here
 print("calling the function in output")
