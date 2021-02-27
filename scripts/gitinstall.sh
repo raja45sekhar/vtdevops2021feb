@@ -32,6 +32,7 @@ cd git-${VER}
 echo "Compile and install git latest version"
 make prefix=/usr/local/git all
 make prefix=/usr/local/git install
+# copied for fork example
 
 # set the global path
 echo "Adding to PATH"
