@@ -1,3 +1,4 @@
+#this is a functions to add 2 number
 def sum(x,y):
     return x+y
 # main program starts here
