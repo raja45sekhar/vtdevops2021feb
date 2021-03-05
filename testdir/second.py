@@ -13,7 +13,7 @@ y=15
 z=sum(x,y)*2
 print(z)
 
-def product(a,b):
-    return a*b
-print("Product of 5,10", product(5,10))
+def product(a,b,c):
+    return a*b*c
+print("Product of 5,10,15", product(5,10,15))
 
