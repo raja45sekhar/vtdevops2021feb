@@ -1,6 +1,5 @@
 #this program list 
-Devops=["Raja","srinivas","vignesh","srikanth","melvin"] #Devops of Participents
-
+Devops=["Raja","srinivas","vignesh","srikanth","melvin","pavan"] #Devops of Participents
 for p in Devops:
     print("Devops learner:",p)
 
