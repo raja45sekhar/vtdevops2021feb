@@ -1,5 +1,16 @@
-# This script is to deploy benefits app on admin server
-java weblogic.Deployer -adminurl t3://192.168.33.110:8001 \
-     -username weblogic -password Welcome1 \
-     -deploy /vagrant/data/benefits.war -id benefits
+#!/bin/bash
+#vignesh - Deploy application admin server
+#./benefitsdeploy.sh - you can execute to depply application by providing the parameters and its values.
+file="./parameters.properties"
 
+if [ -f "$file" ]
+then
+    echo "$file found."
+ . $file
+java weblogic.Deployer -adminurl $adminurl \
+     -username $username -password $pwd \
+     -deploy $apppath/$app 
+
+else
+    echo "$file not found."
+fi
