@@ -1,5 +1,6 @@
 #!/bin/bash
 #vignesh - Deploy application admin server
+#./benefitsdeploy.sh - you can execute to depply application by providing the parameters and its values.
 file="./parameters.properties"
 
 if [ -f "$file" ]
