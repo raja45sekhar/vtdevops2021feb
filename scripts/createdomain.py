@@ -35,6 +35,8 @@ setOption('OverwriteDomain', 'true')
 domainPath=raw_input('Enter the domain path: ')
 domainName=raw_input('Enter domain name: ')
 print 'Given domain path, name : ', domainPath, domainName
+setOption("ServerStartMode", "prod")
+setOption("OverwriteDomain", "true")
 writeDomain(domainPath+"/"+domainName)
 closeTemplate()
 exit()
